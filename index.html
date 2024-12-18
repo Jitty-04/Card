@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</head>
+<style>
+  .colour {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+  }
+  .card{
+    background: linear-gradient(to bottom, #ff0066 0%, #0000ff 100%);
+    color: aliceblue;
+  }
+</style>
+
+
+<body style="background-color:gold;">
+ 
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"style=" background: linear-gradient(to bottom, #0000cc 0%, #ff0066 100%);" >
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-white" href="#">E - cart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <form class="d-flex mx-auto w-50" role="search">
+          <input class="form-control me-2 font-monospace" type="search" placeholder="Enter your Favourites" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      
+      <ul class="nav navbar-nav justify-content-end me-4">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page"  href="#">Home <i class="fa-sharp-duotone fa-solid  fa-house"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="#">Cart <i class="fa-sharp-duotone fa-solid fa-cart-shopping"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active text-white" href="#">List <i class="fa-sharp-duotone fa-solid fa-heart"></i></a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Signup
+              </a>
+        
+          </li>
+       
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="#">More</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    
+  </nav>
+
+
+      <div class="row text-bg-dark">
+
+        <div class="col-1 px-5 fw-bold">Sell</div>
+        <div class="col-1 px-5 fw-bold">BestSellers</div>
+        <div class="col-1 px-5 fw-bold">TodaysDeals</div>
+        <div class="col-1 px-5 fw-bold">Mobiles</div>
+        <div class="col-1 px-3 fw-bold">CustomerService</div>
+        <div class="col-1 px-5 fw-bold">Electronics</div>
+        <div class="col-1 px-5 fw-bold">Furnitures</div>
+        <div class="col-1 px-5 fw-bold">Laptops</div>
+        <div class="col-1 px-5 fw-bold">Mobiles</div>
+        <div class="col-1 px-5 fw-bold">Clothes</div>
+        <div class="col-1 px-5 fw-bold">Newrelease</div>
+        <div class="col-1 px-5 fw-bold">alldeals</div>
+
+
+      </div>
+
+    </nav>
+  </div>
+  <div class="container d-flex justify-content-center">
+    <div class="row  shadow my-3 px-5 w-100 py-3" style="background-color:coral;color: aliceblue;">
+
+      <div class="col-2 text-center">
+        <img src="./electronic.webp" style="height: 100px; width: 150px;" alt="">
+        <h6 class="dropdown-toggle">Electronics</h6>
+      </div>
+      <div class="col-2 text-center">
+        <img src="./mobile.avif" style="height: 100px; width: 150px;" alt="">
+        <h6 class="dropdown-toggle">Mobiles</h6>
+      </div>
+      <div class="col-2 text-center">
+        <img src="./cloth.jpg" style="height: 100px; width: 150px;" alt="">
+        <h6 class="dropdown-toggle">Clothes</h6>
+      </div>
+      <div class="col-2 text-center">
+        <img src="./furniture.jpg" style="height: 100px; width: 150px;" alt="">
+        <h6 class="dropdown-toggle">Furnitures</h6>
+      </div>
+      <div class="col-2 text-center">
+        <img src="./laptop.webp" style="height: 100px; width: 150px;" alt="">
+        <h6 class="dropdown-toggle">Laptops</h6>
+      </div>
+      <div class="col-2 text-center">
+        <img src="./AC.webp" style="height: 100px; width: 150px;" alt="">
+        <h6 class="dropdown-toggle">AC</h6>
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExample" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./gif.gif" class="d-block w-100"
+          style="height:500px; object-fit:fill;" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./gadgets.webp" class="d-block w-100" style="height: 500px;"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./garage.avif" class="d-block w-100" style="height: 500px;"
+          alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+  <div class="container ">
+    <div class="row">
+
+      <h3 class="py-3">Best of Clothes</h3>
+
+      <div class="col-lg-3">
+
+        <div class="card border-dark" style="width: 18rem;">
+
+          <img src="./Jumbsuit.webp" style="height: 200px;" class="card-img-top"
+            alt="">
+          <div class="card-body">
+            <h4 class="card-title fw-bold">JumpSuit</h4>
+            <p class="card-text fw-bold">Libas</p>
+            <h5 class="card-text">Rs.689/-</h5>
+            <hr>
+            <div class="row">
+              <div class="col-6">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <div class="col-6">
+
+                <a href="" class="btn btn-warning btn-sm"><i class="fa-solid fa-cart-shopping"></i>Add to
+                  cart </a>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3">
+
+        <div class="card border-dark" style="width: 18rem;">
+
+          <img src="./maybell.webp" style="height: 200px;" class="card-img-top"
+            alt="">
+          <div class="card-body">
+            <h4 class="card-title fw-bold">Anarkali</h4>
+            <p class="card-text fw-bold">Mayabell</p>
+            <h5 class="card-text">Rs.1999/-</h5>
+            <hr>
+            <div class="row">
+              <div class="col-6">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <div class="col-6">
+
+                <a href="" class="btn btn-warning  btn-sm"><i class="fa-solid fa-cart-shopping"></i>Add to
+                  cart </a>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3">
+
+        <div class="card border-dark" style="width: 18rem;">
+
+          <img src="./gown.webp" style="height: 200px;" class="card-img-top"
+            alt="">
+          <div class="card-body">
+            <h4 class="card-title fw-bold">Gown</h4>
+            <p class="card-text fw-bold">Shubvastra</p>
+            <h5 class="card-text">Rs.2000/-</h5>
+            <hr>
+            <div class="row">
+              <div class="col-6">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <div class="col-6">
+
+                <a href="" class="btn btn-warning  btn-sm"><i class="fa-solid fa-cart-shopping"></i>Add to
+                  cart </a>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3">
+
+        <div class="card border-dark" style="width: 18rem;">
+
+          <img src="./skirt.webp" style="height: 200px;" class="card-img-top"
+            alt="">
+          <div class="card-body">
+            <h4 class="card-title fw-bold">Skirt</h4>
+            <p class="card-text fw-bold">Wallia Jones</p>
+            <h5 class="card-text">Rs.799</h5>
+            <hr>
+            <div class="row">
+              <div class="col-6">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <div class="col-6">
+
+                <a href="" class="btn btn-warning  btn-sm"><i class="fa-solid fa-cart-shopping"></i>Add to
+                  cart </a>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+
+        <h3 class="py-3">Best of Electronics</h3>
+
+        <div class="col-lg-3">
+
+          <div class="card border-dark" style="width: 18rem;">
+
+            <img src="./laptop.webp" style="height: 200px;" class="card-img-top"
+              alt="">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Laptops</h4>
+              <p class="card-text fw-bold">Stock: In Stock
+                Model:Latitude 14-5480SA8322
+                Weight:1.50kg
+                Dimensions:21.00cm x 30.00cm x 5.00cm
+                </p>
+              <h5 class="card-text">Rs.25000/-</h5>
+              <hr>
+              <div class="row">
+                <div class="col-6">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+
+                <div class="col-6">
+
+                  <a href="" class="btn btn-warning  btn-sm"><i class="fa-solid fa-cart-shopping"></i>Add to
+                    cart </a>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-3">
+
+          <div class="card border-dark" style="width: 18rem;">
+
+            <img src="./mobile.avif" style="height: 200px;" class="card-img-top"
+              alt="">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Mobiles</h4>
+              <p class="card-text fw-bold">Supported Accessories:Wireless charger
+                OS:iOS
+                OS Version:iOS 14
+                Front Res:12 MP
+                Front Aperture:f/2.2
+                </p>
+              <h5 class="card-text">Rs.32000/-</h5>
+              <hr>
+              <div class="row">
+                <div class="col-6">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+
+                <div class="col-6">
+
+                  <a href="" class="btn btn-warning  btn-sm"><i class="fa-solid fa-cart-shopping"></i>Add to
+                    cart </a>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-3">
+
+          <div class="card border-dark" style="width: 18rem;">
+
+            <img src="AC.webp" style="height: 200px;" class="card-img-top"
+              alt="">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">AC</h4>
+              <p class="card-text fw-bold">Capacity:1.6 Tons
+                Annual Energy Consumption:1395 Kilowatt Hours
+                Noise Level:41 dB
+                Voltage:50 Volts</p>
+              <h5 class="card-text">Rs.45000/-</h5>
+              <hr>
+              <div class="row">
+                <div class="col-6">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+
+                <div class="col-6">
+
+                  <a href="" class="btn btn-warning  btn-sm"><i class="fa-solid fa-cart-shopping"></i>Add to
+                    cart </a>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-3">
+
+          <div class="card border-dark" style="width: 18rem;">
+
+            <img src="./speak.jpg" style="height: 200px;" class="card-img-top"
+              alt="">
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Speaker</h4>
+              <p class="card-text fw-bold">PlayTime:3-5Hrs StandBy:24hrs Frequency:40hz-18khz PMPO power:500W 
+                Speaker magnet size:23Oz Battery:7.4V/4400mah
+              </p>
+              <h5 class="card-text">Rs.30000/-</h5>
+              <hr>
+              <div class="row">
+                <div class="col-6">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+
+                <div class="col-6">
+
+                  <a href="" class="btn btn-warning  btn-sm"><i class="fa-solid fa-cart-shopping"></i>Add to
+                    cart </a>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div><br>
+  <div class="card">
+
+    <div class="card-footer  text-bg-dark">
+      <div class="row">
+
+        <div class="col-2">
+          <ul type="none">
+            <li>Contact Us</li>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Fake stories</li>
+            <li>Press</li>
+            <li>Corporate</li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <ul type="none">
+            <li>Group Companies</li>
+            <li>Myntra</li>
+            <li>Flipkart</li>
+            <li>Amazon</li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <ul type="none">
+            <li>Help</li>
+            <li>payments</li>
+            <li>shipping</li>
+            <li>returns and Faq</li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <ul type="none">
+            <li>Consumer Policy</li>
+            <li>Cancellation</li>
+            <li>Terms of use</li>
+            <li>Security</li>
+            <li>Sitemap</li>
+            <li>Grievance</li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <h5>Mail us:</h5>
+          <p>
+            K7,Luminar Technolab,opposite to collectorate
+            kakkand,kochi
+            pin:690101
+
+          </p>
+        </div>
+        <div class="col-2">
+          <h6>
+            Registered Address
+          </h6>
+          <p>
+            K7,Luminar Technolab,opposite to collectorate
+            kakkand,kochi
+            pin:690101
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
